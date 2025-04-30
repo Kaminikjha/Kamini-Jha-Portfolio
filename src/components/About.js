@@ -15,7 +15,7 @@ const AboutSection = () => {
       <div className="max-w-4xl mx-auto">
         {/* About Me Heading */}
         <motion.h2
-          className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tighter border-l-4 border-yellow-500 pl-2 mb-6"
+          className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight tracking-tighter border-l-4 border-yellow-500 pl-2 mb-6"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
@@ -36,8 +36,8 @@ const AboutSection = () => {
         <motion.p
           className="text-sm md:text-xl lg:text-2xl text-gray-300 leading-relaxed mb-8"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          animate={{ opacity: 2 }}
+          transition={{ duration: 2 }}
         >
           I’m a passionate web developer who loves building modern, responsive,
           and user-friendly websites and apps. With expertise in React, Tailwind

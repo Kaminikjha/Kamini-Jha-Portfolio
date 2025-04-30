@@ -16,8 +16,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full  backdrop-blur-md z-50 shadow-lg">
-      <div className="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
+    <nav className="fixed top-0 left-0 w-full bg-[#171d32] backdrop-blur-md z-50  shadow-lg">
+      <div className="container mx-auto px-4 md:px-36 py-4 flex justify-between items-center">
         {/* Logo */}
         <span className="bg-blue-600  text-white rounded-xl px-4 py-2 hover:opacity-95 duration-300 hover:scale-105 text-xl lg:text-2xl font-bold tracking-wide">
           KK Jha
@@ -40,7 +40,7 @@ const Navbar = () => {
         <ul
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } md:flex md:items-center md:space-x-6 absolute md:static w-full md:w-auto bg-[#171d32] md:bg-transparent left-0 md:left-auto top-16 md:top-0 py-4 md:py-0 text-center text-sm md:text-xl lg:text-2xl transition-all duration-300`}
+          } md:flex md:items-center md:space-x-8 absolute md:static w-full md:w-auto bg-[#171d32] md:bg-transparent left-0 md:left-auto top-16 md:top-0 py-4 md:py-0 text-center text-sm md:text-xl lg:text-2xl transition-all duration-300`}
         >
           <li>
             <a

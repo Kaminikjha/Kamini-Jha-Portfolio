@@ -81,7 +81,7 @@ const Projects = () => {
 
   return (
     <div id="projects" className="text-white py-10 px-6 relative overflow-hidden">
-      <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tighter mb-6 text-center">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight tracking-tighter mb-6 text-center">
         My Projects
       </h2>
       <div className="max-w-6xl mx-auto">
@@ -97,7 +97,7 @@ const Projects = () => {
                 className="w-full h-40 object-cover rounded-md"
               />
               <h3 className="text-xl font-semibold mt-4">{project.title}</h3>
-              <p className="text-gray-400 mt-2 flex-grow">{project.description}</p>
+              <p className="text-gray-400 mt-2 flex-row">{project.description}</p>
               <a
                 href={project.link}
                 target="_blank"
