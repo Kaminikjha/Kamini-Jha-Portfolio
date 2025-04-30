@@ -13,7 +13,7 @@ import nodejs from "../assets/nodejs.png";
 
 const Experience = () => {
   return (
-    <div id="experience" className="text-white py-12 px-4 md:px-8">
+    <div id="experience" className="text-white pb-12 px-4 md:px-8">
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight tracking-tighter mb-10 text-center">My Experience</h2>
       
       <div className="grid grid-cols-3 md:grid-cols-5 gap-4 max-w-6xl mx-auto">
