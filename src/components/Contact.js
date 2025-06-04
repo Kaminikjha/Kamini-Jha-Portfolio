@@ -5,7 +5,7 @@ import ContactGraphic from "../assets/contact.png"; // Make sure you have this i
 
 const Contact = () => {
   return (
-    <div id="contact" className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 ">
+    <div id="contact" className="min-h-auto mt-10 md:mt-0 md:min-h-screen flex flex-col md:flex-row items-center justify-center px-6 ">
       
       {/* Left Side - Contact Info */}
       <motion.div
@@ -40,7 +40,26 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="md:w-1/3 flex justify-center"
       >
-        <img src={ContactGraphic} alt="Contact Illustration" className="max-w-full h-auto" />
+        <motion.img 
+          src={ContactGraphic} 
+          alt="Contact Illustration" 
+          className="max-w-full h-auto"
+          whileHover={{
+            rotateY: 10,
+            rotateX: -5,
+            scale: 1.05,
+            transition: { duration: 0.3 }
+          }}
+          whileTap={{
+            rotateY: 5,
+            rotateX: -2,
+            scale: 0.98
+          }}
+          style={{
+            transformStyle: 'preserve-3d',
+            transformPerspective: 1000
+          }}
+        />
       </motion.div>
       
     </div>

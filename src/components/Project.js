@@ -80,7 +80,7 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="text-white py-10 px-6 relative overflow-hidden">
+    <div id="projects" className="text-white py-10 px-6 relative overflow-hidden pt-24 ">
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight tracking-tighter mb-6 text-center">
         My Projects
       </h2>

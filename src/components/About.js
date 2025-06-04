@@ -6,13 +6,13 @@ import { ReactTyped } from "react-typed";
 const AboutSection = () => {
   return (
     <motion.div id="about"
-      className="text-white p-6 md:p-12 lg:p-20"
+      className="text-white p-6 md:p-12 lg:p-20 "
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       whileHover={{ scale: 1.05 }}
     >
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto mt-20 ">
         {/* About Me Heading */}
         <motion.h2
           className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight tracking-tighter border-l-4 border-yellow-500 pl-2 mb-6"
