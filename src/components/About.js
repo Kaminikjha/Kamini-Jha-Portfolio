@@ -2,34 +2,31 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
 
-
 const AboutSection = () => {
   return (
-    <motion.div id="about"
-      className="text-white p-6 md:p-12 lg:p-20 "
+    <motion.div
+      id="about"
+      className="text-white p-6 md:p-12 lg:p-20"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       whileHover={{ scale: 1.05 }}
     >
-      <div className="max-w-4xl mx-auto mt-20 ">
+      <div className="max-w-4xl mx-auto mt-20">
         {/* About Me Heading */}
         <motion.h2
-          className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight tracking-tighter border-l-4 border-yellow-500 pl-2 mb-6"
+          className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight tracking-tighter pl-2 mb-6"
+          style={{ borderLeft: "4px solid #8781FF" }}
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-         <ReactTyped
-                       strings={[
-                         "About Me",
-                        
-                       ]}
-                       typeSpeed={100}
-                       loop={true}
-                       backSpeed={50}
-                     />
-                     
+          <ReactTyped
+            strings={["About Me"]}
+            typeSpeed={100}
+            loop={true}
+            backSpeed={50}
+          />
         </motion.h2>
 
         {/* About Me Description */}
@@ -48,9 +45,6 @@ const AboutSection = () => {
           just visually appealing but also easy to use, ensuring a seamless
           experience for every user.
         </motion.p>
-
-       
-       
       </div>
     </motion.div>
   );

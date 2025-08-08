@@ -3,7 +3,8 @@ import debugEntityImg from "../assets/agency_website.png";
 import online_tutor from "../assets/online_tutor.png";
 import VCS from "../assets/VCS.png";
 import ustudy from "../assets/ustudy.png";
-import calculator from "../assets/calculator.png";
+import greenearth from "../assets/GreenEarth.png";
+import calculator from "../assets/Calculator.png";
 
 const projects = [
   {
@@ -31,13 +32,20 @@ const projects = [
     title: "UStudY",
     description: "This is a children's study website developed in React.js using Tailwind CSS.",
     image: ustudy,
-    link: "#",
+    link: "https://u-stud-y-ytgw.vercel.app/",
+  },
+
+   {
+    title: "GreenEart Plant Store",
+    description: "This is a Calculator using HTML, CSS and JavaScript.",
+    image: greenearth,
+    link: "https://plant-store-five.vercel.app/",
   },
   {
     title: "Calculator",
     description: "This is a Calculator using HTML, CSS and JavaScript.",
     image: calculator,
-    link: "#",
+    link: "https://calculation-seven.vercel.app/",
   },
 ];
 
