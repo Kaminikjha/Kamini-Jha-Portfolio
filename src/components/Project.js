@@ -4,7 +4,7 @@ import online_tutor from "../assets/online_tutor.png";
 import VCS from "../assets/VCS.png";
 import ustudy from "../assets/ustudy.png";
 import greenearth from "../assets/GreenEarth.png";
-import calculator from "../assets/Calculator.png";
+import calculator from "../assets/calculator.png";
 
 const projects = [
   {
