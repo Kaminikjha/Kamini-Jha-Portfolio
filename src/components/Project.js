@@ -45,7 +45,7 @@ const projects = [
     title: "Calculator",
     description: "This is a Calculator using HTML, CSS and JavaScript.",
     image: calculator,
-    link: "https://calculation-seven.vercel.app/",
+    link: "https://contrast-mode-calculator-b1w5.onrender.com/",
   },
 ];
 

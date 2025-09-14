@@ -89,7 +89,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8, ease: "easeInOut" }}
           >
-            I am a passionate Frontend Developer specializing in crafting
+            I am a passionate Front-end Developer specializing in crafting
             visually stunning and highly functional user interfaces. I thrive on
             transforming ideas into seamless, engaging digital experiences that
             drive impact and innovation.
