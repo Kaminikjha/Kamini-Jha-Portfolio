@@ -30,14 +30,14 @@ const projects = [
   },
   {
     title: "UStudY",
-    description: "This is a children's study website developed in React.js using Tailwind CSS.",
+    description: "This is a children's study website developed in React.js and Tailwind CSS.",
     image: ustudy,
     link: "https://u-stud-y-ytgw.vercel.app/",
   },
 
    {
     title: "GreenEart Plant Store",
-    description: "This is a Calculator using HTML, CSS and JavaScript.",
+    description: "This is a E-commerce website developed in React.js and Tailwind CSS.",
     image: greenearth,
     link: "https://plant-store-five.vercel.app/",
   },
