@@ -5,6 +5,7 @@ import VCS from "../assets/VCS.png";
 import ustudy from "../assets/ustudy.png";
 import greenearth from "../assets/GreenEarth.png";
 import calculator from "../assets/calculator.png";
+import restaura from "../assets/restaura.png";
 
 const projects = [
   {
@@ -46,6 +47,12 @@ const projects = [
     description: "This is a Calculator using HTML, CSS and JavaScript.",
     image: calculator,
     link: "https://contrast-mode-calculator-b1w5.onrender.com/",
+  },
+  {
+    title: "Restaura",
+    description: "A modern and fully responsive restaurant website developed using React and Tailwind CSS.",
+    image: restaura,
+    link: "https://restaura-site.vercel.app/",
   },
 ];
 
